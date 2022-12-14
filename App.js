@@ -27,14 +27,10 @@ const App = ({params,route}) => {
           headerTitleAlign: "center",
           headerTintColor: "#fff",
           headerStyle: {
-            backgroundColor: "#0b1216",
-            
+            backgroundColor: "#0b1216",  
          }
-        })
-      }
-        
+        })}
       />
-
       </Stack.Navigator>
     </NavigationContainer>
   )
