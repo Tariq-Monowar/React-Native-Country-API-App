@@ -54,7 +54,7 @@ const Home = () => {
     <SafeAreaView style={styles.mainView}>
       {/*------------- searchBar ----------------*/}
       <View style={styles.HeaderView}>
-        <Text style={styles.headerText}>Counter App</Text>
+        <Text style={styles.headerText}>Country App</Text>
       </View>
 
 
