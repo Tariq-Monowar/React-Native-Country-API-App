@@ -9,11 +9,6 @@ const Home = () => {
     const[data,setData] = useState("")
     const[isLodding,setIsLodding] = useState(true)
   
-      
-module.exports = {
-  assets:['./assets/Fonts'],
-}
-
     const getData = async()=>{
         const result = await fetch("https://restcountries.com/v3.1/all")
         const myData = await result.json()
